@@ -44,6 +44,9 @@ menu:
     
   - title:	About
     url:	/about
+
+  - title:	To Do
+    url:	/todo
     
 copyright:
   author:	Joshua Rappeneker
