@@ -6,9 +6,9 @@ pygments:	true
 permalink:	/blog/:title
 
 # Setup
-title:		Thinny
-tagline:	'blog'
-description:	'My personal blog.'
+title:		Family Travels
+tagline:	'Stuff we did in places other than home'
+description:	'Photos with useless descriptions'
 url:		http://www.magisys.net
 
 author:
