@@ -6,6 +6,8 @@ title: What to do in Oz
 
 **Places or things to eat (the best of each)**
 
+* BBQ
+* Lamb rack
 * Steak house
 * Oysters
 * Cheese

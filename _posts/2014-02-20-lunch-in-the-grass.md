@@ -9,4 +9,4 @@ video: false
 
 Perfect.
 
-{% include image.html url="/media/2014-02-20-lunch-in-the-grass/kai-stands.jpg" width="100%" description="The basket has become on of his favourite toys" %}
+{% include image.html url="/media/2014-02-20-lunch-in-the-grass/kai-stands.jpg" width="100%" description="The basket has become one of his favourite toys" %}
