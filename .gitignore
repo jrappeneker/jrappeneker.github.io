@@ -1,1 +1,11 @@
-# OS X.DS_Store# Jekyll_site
+# OS X
+.DS_Store
+# Jekyll
+_site
+.DS_Store
+_posts/.DS_Store
+_site/
+assets/.DS_Store
+assets/images/.DS_Store
+media/.DS_Store
+media/2014-03-01-nelson-bay/.DS_Store
