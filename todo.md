@@ -6,24 +6,24 @@ title: What to do in Oz
 
 **Places or things to eat (the best of each)**
 
-* BBQ
 * Lamb rack
 * Steak house
 * Oysters
-* Cheese
 * Yum-cha (飲茶)
-* Salmon
-* Kebab
-* Fish & Chips
 * Wine
-* Sushi (寿司)
-* Indian (more!)
+* ~~Sushi (寿司)~~
+* ~~Cheese~~
+* ~~Salmon~~
+* ~~Kebab~~
+* ~~Fish & Chips~~
+* ~~BBQ~~
+* ~~Indian (more!)~~
 
 ---
 
 **Things to do / Places to go**
 
-* Bush walk in rainforest
+* ~~Bush walk in rainforest~~
 
 ---
 
