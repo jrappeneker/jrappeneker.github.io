@@ -8,8 +8,8 @@ title: What to do in Oz
 
 * Lamb rack
 * Steak house
-* Yum-cha (飲茶)
 * Wine
+* ~~Yum-cha (飲茶)~~
 * ~~Oysters~~
 * ~~Sushi (寿司)~~
 * ~~Cheese~~
