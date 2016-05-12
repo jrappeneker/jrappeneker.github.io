@@ -2,8 +2,8 @@
 // NOTE: pay attention to commas, IE struggles with those bad boys
 var quizJSON = {
     "info": {
-        "name": "Unit 1",
-        "main": "Quiz 1 – Spot the mistake",
+        "name": "Unit 3",
+        "main": "Quiz 3 – Finish the sentence",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
         "level1": "Excellent",
         "level2": "Very good",
@@ -11,286 +11,111 @@ var quizJSON = {
         "level4": "Needs work",
         "level5": "Try reading the unit again" // no comma here
     },
-    "questions": [{ // Question 1 - Multiple Choice, Single True Answer
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The weather is good today.",
-            "correct": false
-        }, {
-            "option": "Is very hot today.",
-            "correct": true
-        }, {
-            "option": "It is a lovely, sunny day.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no subject in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence with no subject.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "I am a vegetarian.",
-            "correct": false
-        }, {
-            "option": "Because I am a vegetarian.",
-            "correct": true
-        }, {
-            "option": "I don’t like to eat meat.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The sentence begins with a conjunction.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the sentence begins with a conjunction.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "I work in a small company.",
-            "correct": false
-        }, {
-            "option": "My job is in a small company.",
-            "correct": false
-        }, {
-            "option": "My job in a small company.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "Playing basketball is David.",
-            "correct": true
-        }, {
-            "option": "David is playing basketball.",
-            "correct": false
-        }, {
-            "option": "David likes playing basketball.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The subject and verb are in the wrong order.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject and verb are in the wrong order.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The sky is beautiful tonight.",
-            "correct": false
-        }, {
-            "option": "The sky at night so beautiful.",
-            "correct": true
-        }, {
-            "option": "I saw beautiful night skies in Asia.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
+    "questions": [
+	{ "q": "I like studying, but . . .", "a":[{
+	"option":"Peter likes studying, too.", "correct":false }, {
+	"option":"I don’t like doing homework.", "correct":true }, {
+	"option":"I like speaking English.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	{ "q": "I lost my purse, so …", "a":[{
+	"option":"I went to the police.", "correct":true }, {
+	"option":"I lost my handbag.", "correct":false }, {
+	"option":"I didn’t lose my handbag.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+		{ "q": "We might go swimming, or …", "a":[{
+	"option":"we won’t go the park.", "correct":false }, {
+	"option":"then we will go to the park.", "correct":false }, {
+	"option":"we might go to the park.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "My dad bought a DVD, and …", "a":[{
+	"option":"he didn’t buy another one.", "correct":false }, {
+	"option":"I didn’t buy anything.", "correct":false }, {
+	"option":"my mum bought a book.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+		
+	{ "q": "It was very cold, but …", "a":[{
+	"option":"the children played football.", "correct":true }, {
+	"option":"it was snowing.", "correct":false }, {
+	"option":"we didn’t play outside.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no"},
+	
+	{ "q": "I failed the writing test, so …", "a":[{
+	"option":"I also failed the speaking test.", "correct":false }, {
+	"option":"I passed the speaking test.", "correct":false }, {
+	"option":"I have to take the test again.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+		
+	
+	{ "q": "You should hurry, or …", "a":[{
+	"option":"you will miss the train.", "correct":true }, {
+	"option":"you will not miss the train.", "correct":false }, {
+	"option":"you will catch the train.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+		
+	{ "q": "My sister cooked the meal, and …", "a":[{
+	"option":"neither did I.", "correct":false }, {
+	"option":"I made the dessert.", "correct":true }, {
+	"option":"she didn’t make the dessert.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
 
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "I am very tired today.",
-            "correct": false
-        }, {
-            "option": "The day was very tiring.",
-            "correct": false
-        }, {
-            "option": "It is very tired today.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> The subject in the sentence is wrong.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject in the sentence is wrong.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "I always my homework in the evening.",
-            "correct": true
-        }, {
-            "option": "Homework is important for students.",
-            "correct": false
-        }, {
-            "option": "I don’t like doing homework late at night.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The country is a little dangerous nowadays.",
-            "correct": false
-        }, {
-            "option": "This country scary and dangerous.",
-            "correct": true
-        }, {
-            "option": "Some countries are very dangerous to visit.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "But it was a very difficult language course.",
-            "correct": true
-        }, {
-            "option": "I enjoyed the course, but it was difficult.",
-            "correct": false
-        }, {
-            "option": "Learning a language is difficult.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The sentence begins with a conjunction.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the sentence begins with a conjunction.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The restaurant is excellent.",
-            "correct": false
-        }, {
-            "option": "It is the best restaurant in town.",
-            "correct": false
-        }, {
-            "option": "Is a really wonderful restaurant.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> There is no subject in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no subject in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The team always play in red shirts.",
-            "correct": false
-        }, {
-            "option": "He football team plays in blue shirts this year.",
-            "correct": true
-        }, {
-            "option": "They always play in blue and white shirts.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The subject in the sentence is wrong.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject in the sentence is wrong.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "Steve had a really bad experience in Tokyo.",
-            "correct": false
-        }, {
-            "option": "The visit to Tokyo was a great experience.",
-            "correct": false
-        }, {
-            "option": "Had a great time we in Tokyo.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> The subject and verb are in the wrong order.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject and verb are in the wrong order.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "And I bought the freshest fish at 6am.",
-            "correct": true
-        }, {
-            "option": "I went to the market early and bought the freshest fish.",
-            "correct": false
-        }, {
-            "option": "The freshest fish are always sold at 6am.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The sentence begins with a conjunction.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the sentence begins with a conjunction.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The chicken curry is really good",
-            "correct": false
-        }, {
-            "option": "The chicken curry tasty and delicious.",
-            "correct": true
-        }, {
-            "option": "We enjoyed the chicken curry the most.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "Is living in New York my friend.",
-            "correct": true
-        }, {
-            "option": "I have friends living in New York.",
-            "correct": false
-        }, {
-            "option": "My friend wants me to move to New York.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The subject and verb are in the wrong order.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject and verb are in the wrong order.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "So my father bought some ice cream.",
-            "correct": true
-        }, {
-            "option": "My father bought some ice cream.",
-            "correct": false
-        }, {
-            "option": "He wanted to get ice cream.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> The sentence begins with a conjunction.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the sentence begins with a conjunction.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "The orchestra practices on Saturday afternoon.",
-            "correct": false
-        }, {
-            "option": "I play the trombone in the orchestra.",
-            "correct": false
-        }, {
-            "option": "Used to like playing the saxophone.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> There is no subject in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no subject in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "They are beautiful mountains.",
-            "correct": false
-        }, {
-            "option": "It is a beautiful mountain.",
-            "correct": false
-        }, {
-            "option": "They is a beautiful mountain.",
-            "correct": true
-        }],
-        "correct": "<p><span>That's right!</span> The subject in the sentence is wrong.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which the subject in the sentence is wrong.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "It’s a one-hour flight from London to Amsterdam.",
-            "correct": false
-        }, {
-            "option": "Beautiful airport in Thailand.",
-            "correct": true
-        }, {
-            "option": "The flight was very comfortable.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no subject or verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no subject or verb in the sentence.</p>" // no comma here
-    }, {
-        "q": "Which sentence is incorrect?",
-        "a": [{
-            "option": "We always shopping in Ginza, Tokyo.",
-            "correct": true
-        }, {
-            "option": "My mother goes shopping every Saturday.",
-            "correct": false
-        }, {
-            "option": "I didn’t buy anything today.",
-            "correct": false
-        }],
-        "correct": "<p><span>That's right!</span> There is no verb in the sentence.</p>",
-        "incorrect": "<p><span>Incorrect.</span> Find the sentence in which there is no verb in the sentence.</p>" // no comma here
-    }]
+
+	{ "q": "I don’t like horror movies, but …", "a":[{
+	"option":"I like comedies.", "correct":true }, {
+	"option":"I don’t like romantic movies.", "correct":false }, {
+	"option":"I never watch them.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "My teacher is from England, so …", "a":[{
+	"option":"she doesn’t live in London.", "correct":false }, {
+	"option":"she comes from London.", "correct":false }, {
+	"option":"I asked her about it.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+		
+	{ "q": "You should stop that, or …", "a":[{
+	"option":"you will get angry.", "correct":false }, {
+	"option":"I will get angry.", "correct":true }, {
+	"option":"I will not get angry.", "correct":false }], "correct":"Well done!", "incorrect" :"Oh no!"},
+		
+	{ "q": "My sister works in an office, and …", "a":[{
+	"option":"my brother doesn’t work in an office.", "correct":false }, {
+	"option":"my brother works in a bank.", "correct":true }, {
+	"option":"she doesn’t work in a bank.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+		
+	
+	{ "q": "The food was great, but …", "a":[{
+	"option":"it was too expensive.", "correct":true }, {
+	"option":"we enjoyed it very much.", "correct":false }, {
+	"option":"it was delicious..", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "I am vegetarian, so …", "a":[{
+	"option":"I don’t like vegetables.", "correct":false }, {
+	"option":"I eat a lot of vegetables.", "correct":true }, {
+	"option":"I like eating meat.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "I often go to the pool on Saturday, or …", "a":[{
+	"option":"I don’t like swimming very much.", "correct":false }, {
+	"option":"I like swimming.", "correct":false }, {
+	"option":"I go to the gym.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "I was born in England, and …", "a":[{
+	"option":"I didn’t grow up there.", "correct":false }, {
+	"option":"I don’t live there now.", "correct":false }, {
+	"option":"I have always lived there.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "He is very rich, but …", "a":[{
+	"option":"he is not very happy.", "correct":true }, {
+	"option":"he has a big house.", "correct":false }, {
+	"option":"he is not poor.", "correct":false }], "correct":"Well done!", "incorrec":"Oh no!"},
+	
+		
+	
+	{ "q": "We worked from 9 a.m. until midnight, so …", "a":[{
+	"option":"we were not very tired.", "correct":false }, {
+	"option":"we were very tired.", "correct":true }, {
+	"option":"that was all day.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "I have to study hard, or …", "a":[{
+	"option":"I will pass the test.", "correct":false }, {
+	"option":"I can pass the test.", "correct":false }, {
+	"option":"I will not pass the test.", "correct":true }], "correct":"Well done!", "incorrect":"Oh no!"},
+	
+	{ "q": "Mr Jones speaks Spanish, and … ", "a":[{
+	"option":"his wife does not speak Spanish.", "correct":false }, {
+	"option":"his wife speaks French.", "correct":true }, {
+	"option":"he does not speak French.", "correct":false }], "correct":"Well done!", "incorrect":"Oh no!"}
+    ]
 };
